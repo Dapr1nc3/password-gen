@@ -6,6 +6,7 @@ function generatePass() {
   var notselected = 0;
 
   //  password length
+  // prompts for the user
   var passLength = prompt(
     "How long will your password be. The length should be bwtween 8 and 128 characters"
   );
@@ -14,6 +15,7 @@ function generatePass() {
   }
 
   // Option to add lowercase
+  // prompts for the user
   var lowercase = confirm(
     "Would you like to use lowercase characters in your password?" +
       "\n" +
@@ -36,6 +38,7 @@ function generatePass() {
   }
 
   // Option to add uppercase
+  // prompts for the user
   var uppercase = confirm(
     "Would yo ulike to use uppercase characters in your password?" +
       "\n" +
@@ -57,6 +60,7 @@ function generatePass() {
   }
 
   //  Option to add numbers
+  // prompts for the user
   var numeric = confirm(
     "Would you like to use numbers in your password?" +
       "\n" +
@@ -78,6 +82,7 @@ function generatePass() {
   }
 
   // Option to add special characters
+  // prompts for the user
   var special = confirm(
     "would you like to use special characters in your password?" +
       "\n" +
